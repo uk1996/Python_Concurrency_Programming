@@ -1,3 +1,4 @@
+# 프로그램이 실행될 떄 실행 속도가 CPU 속도에 의해 제한됨을 의미
 def cpu_bound_func(number: int):
     total = 1
     arrange = range(1, number + 1)
